@@ -1,0 +1,31 @@
+# =========================
+# Python virtual environment
+# =========================
+venv/
+.env/
+
+# Nếu bạn đặt tên khác cho venv
+.env
+.env.*
+.venv/
+iotvenv/
+
+# =========================
+# Python cache & build
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
