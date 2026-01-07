@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     MQTT_PORT: int
     MQTT_USERNAME: str = ""
     MQTT_PASSWORD: str = ""
+    DATABASE_URL: str
 
     class Config:
         env_file = ".env"
